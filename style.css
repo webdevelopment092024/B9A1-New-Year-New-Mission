@@ -1,0 +1,35 @@
+body{
+    font-family: "Merriweather", serif;
+}
+.happy-new{
+    background-image: url(resources/Banner\ Image.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 810px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.new-text{
+
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    padding-top: 290px;
+}
+.new-text h5{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 0px 0px 0px; 
+
+padding: 20px 20px 20px 20px;
+    
+}
+.new-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 0px 0px; 
+
+}
