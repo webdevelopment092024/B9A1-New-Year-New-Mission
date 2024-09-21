@@ -1,8 +1,8 @@
-body{
-    font-family: "Merriweather", serif;
-}
 .happy-new{
     background-image: url(resources/Banner\ Image.png);
+
+}
+.general-size{
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,6 +23,7 @@ body{
     text-align: center;
     margin: 0px 0px 0px 0px; 
     padding: 20px 20px 20px 20px;
+    font-family: "Merriweather", serif;
     
 }
 .new-text h1{
@@ -31,7 +32,7 @@ body{
     font-weight: 900;
     text-align: center;
     margin: 0px 0px 0px 0px; 
-
+    font-family: "Merriweather", serif;
 }
 
 /* holiday part */
@@ -40,16 +41,16 @@ body{
 }
 .holiday-deal h1{
     color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
-margin-top: 120px;
-margin-bottom: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 0px;
 
 }
 .holiday-deal h5{
     color: rgb(255, 0, 0);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
     margin-top: 49px;
@@ -58,7 +59,7 @@ margin-bottom: 0px;
 }
 .holiday-deal h2{
     color: rgb(7, 2, 17);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 48px;
     font-weight: 700;
     margin-top: 16px;
@@ -67,4 +68,244 @@ margin-bottom: 0px;
 }
 .holiday-deal img{
     margin-top: 47px;
+}
+
+/* welcome part */
+.welcome-party{
+    background-image:url(resources/Vectorrr.png) ;
+}
+.welcome-text{
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    border-radius: 16px;
+    background-size: cover;
+    height: 685px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 126px;
+    padding-top: 126px;
+    padding-right: 955px;
+    margin-top: 120px;
+}
+.welcome-text h1{
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.welcome-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+.welcome-text button{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+/* New park */
+
+.new-park-part{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.new-park {
+    padding-top: 190px;
+    margin-top: 120px;
+}
+.new-park h4{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0px;
+}
+.new-park h4 span{
+    color: red;
+}
+.join-now{
+    text-align: center;
+    margin-top: 64px;
+}
+.join-now button{
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+/* new best offer */
+.all-best-new-section{
+    margin-top: 80px;
+}
+.all-best-new{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.all-all-all{
+    max-width: 440px;
+    margin-right: 200px;
+    padding-top: 204px;
+
+
+}
+.new-best-el{
+    height: 463px;
+    width: 463px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 10px solid red;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 144px;
+}
+.new-best-el img{
+    padding: 50px;
+    
+}
+
+.new-best h5{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 500;
+
+}
+.new-best h1{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
+.new-best p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.new-year-date{
+    padding-left: 200px;
+    padding-top: 244px;
+    padding-right: 200px;
+}
+.new-year-date h1{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 15px;
+margin-top: 0px;
+}
+.new-year-date p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 46px;
+    margin-top: 0px;
+}
+.new-year-date img{
+    margin-top: 0px;
+}
+
+/* discount part */
+.discount-details{
+    margin-top: 120px;
+}
+.fuctional-text{
+    text-align: center;
+
+}
+.fuctional-text h5{
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.fuctional-text h1{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 0%;
+    margin-top: 16px;
+}
+.fuctional-text span{
+    color: red;
+}
+.fuctional-text p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+padding-left: 500px;
+padding-right: 500px;
+margin-top: 30px;
+}
+.git-slot{
+    margin-top: 64px;
+}
+.gift-item{
+    position: relative;
+    display: inline;
+}
+
+.gift-box{
+    margin-bottom: -400px;
+    position: absolute;
+    margin-left: 80px;
+
+}
+.rectangle-box{
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 430px;
+    width: 1776px;
+}
+.man-image{
+    margin-top: -418px;
+    margin-left: 1260px;
+    padding-right: 200px;
+}
+.rectangle-man{
+    width: 565px;
+    height: 434px;
+}
+.circle-image{
+    margin-top: -540px;
+    margin-left: 1115px;
+    position: relative;
+    display: inline;
+}
+.circle-man-size{
+    margin-top: -540px;
 }
