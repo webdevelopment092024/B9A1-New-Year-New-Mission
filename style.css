@@ -338,3 +338,65 @@ margin-top: 30px;
 .protfolio-image:hover {
     transform: scale(1.008);
 }
+
+/* newsletter-part */
+.newsletter-text{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 200px;
+    margin-top: 120px;
+
+}
+.newsletter-text img{
+border: 2px dashed gray;
+margin-bottom: 0px;
+}
+.newsletter-text h2{
+    color: rgb(7, 2, 17);
+    font-family:"Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 46px;
+    margin-bottom: 0px;
+}
+.newsletter-text p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+margin-top: 22px;
+margin-bottom: 0px;
+margin-left: 440px;
+margin-right: 440px;
+}
+.subscribe-part input{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 48px;
+}
+.subscribe-part button{
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    margin-left: -20px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 48px;
+}
