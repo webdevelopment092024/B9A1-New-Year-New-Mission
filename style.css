@@ -309,3 +309,32 @@ margin-top: 30px;
 .circle-man-size{
     margin-top: -540px;
 }
+
+/* portfolio-section */
+
+.portfolio-full{
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.portfolio-full h5{
+    margin-bottom: 0;
+}
+.portfolio-full h1{
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.portfolio-full p{
+    margin-top: 22px;
+    margin-right: 944px;
+
+}
+
+.protfolio-image{
+    border: 2px dashed rgb(117, 117, 117);
+    margin: 5px;
+    height: 575px;
+    width: 575px;
+}
+.protfolio-image:hover {
+    transform: scale(1.008);
+}
